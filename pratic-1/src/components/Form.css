@@ -1,0 +1,36 @@
+.form {
+  background-color: white;
+  margin: 50px auto;
+  width: 60%;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.form-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.actions {
+  background-color: rgb(105, 0, 128);
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-control label {
+  font-weight: bold;
+}
+
+.form-contol input {
+  padding: 5px;
+}

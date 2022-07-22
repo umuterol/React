@@ -1,0 +1,19 @@
+.users-list {
+  margin: 20px auto;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  background-color: transparent;
+  list-style: none;
+}
+
+.users-list-item {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
