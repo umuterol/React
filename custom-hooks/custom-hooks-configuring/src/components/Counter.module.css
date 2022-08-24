@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.counter-box {
+  flex: 1;
+  text-align: center;
+}
+.counter-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
